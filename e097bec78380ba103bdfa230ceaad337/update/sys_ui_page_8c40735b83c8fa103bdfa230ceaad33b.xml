@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>Documentation for Vehicles API.</description>
+        <direct>false</direct>
+        <endpoint>x_270490_vehicle_0_vehicles_api_documentation.do</endpoint>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide">
+
+  <style>
+    .doc-wrap{font-family:Segoe UI,Arial,sans-serif;max-width:980px;margin:18px auto;padding:18px;}
+    .hdr{color:#1f3a57;border-bottom:2px solid #e1e8ef;padding-bottom:8px;}
+    table{width:100%;border-collapse:collapse;margin-top:12px;}
+    th,td{padding:8px;border:1px solid #d8dee6;text-align:left;font-size:13px;}
+    th{background:#f5f8fb}
+    .method-get{color:#2d9a2d;font-weight:700}
+    .method-post{color:#0b66ff;font-weight:700}
+    .method-put{color:#ff8a00;font-weight:700}
+    .method-del{color:#d64545;font-weight:700}
+    .accordion{margin-top:14px}
+    .acc-head{cursor:pointer;padding:10px;border:1px solid #e3e9ef;border-radius:4px;background:#fbfdff}
+    .acc-body{display:none;padding:10px;border-left:1px solid #e3e9ef;border-right:1px solid #e3e9ef;border-bottom:1px solid #e3e9ef}
+    pre{background:#f8f9fb;padding:10px;border-radius:4px;overflow:auto}
+  </style>
+
+  <div class="doc-wrap">
+    <h1 class="hdr">Vehicles API — Documentation (Fictitious)</h1>
+    <p>Manage vehicle records (cars, trucks, bikes). Use the endpoints below to list, create, update, or delete vehicles.</p>
+
+    <h2>Available Endpoints</h2>
+    <table>
+      <thead>
+        <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="method-get">GET</td>
+          <td>/api/vehicles</td>
+          <td>List all vehicles</td>
+        </tr>
+        <tr>
+          <td class="method-post">POST</td>
+          <td>/api/vehicles</td>
+          <td>Create vehicle</td>
+        </tr>
+        <tr>
+          <td class="method-put">PUT</td>
+          <td>/api/vehicles/{id}</td>
+          <td>Update vehicle by ID</td>
+        </tr>
+        <tr>
+          <td class="method-del">DELETE</td>
+          <td>/api/vehicles/{id}</td>
+          <td>Delete vehicle by ID</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="accordion">
+      <div class="acc-head" data-target="exp-get">GET /api/vehicles — details</div>
+      <div id="exp-get" class="acc-body">
+        <strong>Query parameters</strong>
+        <ul>
+          <li><code>make</code> — filter by manufacturer</li>
+          <li><code>year</code> — filter by year</li>
+        </ul>
+        <strong>Response example</strong>
+        <pre>[
+  { "id":"123", "make":"Tesla", "model":"Model 3", "year":2024 },
+  { "id":"456", "make":"Volvo", "model":"V60", "year":2020 }
+]</pre>
+      </div>
+
+      <div class="acc-head" data-target="exp-post">POST /api/vehicles — details</div>
+      <div id="exp-post" class="acc-body">
+        <strong>Body example</strong>
+        <pre>{
+  "make":"Ford",
+  "model":"Transit",
+  "year":2022,
+  "type":"van"
+}</pre>
+        <strong>Notes</strong>
+        <p>Include a valid Authorization header.</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:18px">Example request</h2>
+    <pre>GET /api/vehicles
+Authorization: Bearer &lt;your_token&gt;</pre>
+
+<div style="margin-top:22px;font-size:12px;color:#777">
+  &#169; 2025 Vehicles API — fictitious example
+</div>
+  </div>
+
+  <script>
+    (function(){
+      function toggle(e){
+        var id = e.currentTarget.getAttribute('data-target');
+        var body = document.getElementById(id);
+        body.style.display = (body.style.display === 'block') ? 'none' : 'block';
+      }
+      document.querySelectorAll('.acc-head').forEach(function(h){ h.addEventListener('click', toggle); });
+    })();
+  </script>
+
+</j:jelly>]]></html>
+        <name>vehicles_api_documentation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:52:04</sys_created_on>
+        <sys_id>8c40735b83c8fa103bdfa230ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicles_api_documentation</sys_name>
+        <sys_package display_value="Vehicles App" source="x_270490_vehicle_0">e097bec78380ba103bdfa230ceaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles App">e097bec78380ba103bdfa230ceaad337</sys_scope>
+        <sys_update_name>sys_ui_page_8c40735b83c8fa103bdfa230ceaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:52:04</sys_updated_on>
+    </sys_ui_page>
+</record_update>

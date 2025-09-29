@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_api_access_policy">
+    <sys_api_access_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <all_authn_scheme_authenticate_header>false</all_authn_scheme_authenticate_header>
+        <api>Vehicles</api>
+        <api_path>x_270490_vehicle_0/vehicles</api_path>
+        <api_resource/>
+        <api_tablename/>
+        <apply_all>false</apply_all>
+        <apply_all_methods>true</apply_all_methods>
+        <apply_all_resources>true</apply_all_resources>
+        <apply_all_tables>true</apply_all_tables>
+        <apply_all_versions>false</apply_all_versions>
+        <apply_global>false</apply_global>
+        <http_method/>
+        <name>Vehicles OAuth</name>
+        <sys_class_name>sys_api_access_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 17:25:02</sys_created_on>
+        <sys_id>044499308398b2503bdfa230ceaad315</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vehicles OAuth</sys_name>
+        <sys_package display_value="Vehicles App" source="x_270490_vehicle_0">e097bec78380ba103bdfa230ceaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles App">e097bec78380ba103bdfa230ceaad337</sys_scope>
+        <sys_update_name>sys_api_access_policy_044499308398b2503bdfa230ceaad315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 17:46:58</sys_updated_on>
+        <version>v3</version>
+    </sys_api_access_policy>
+</record_update>

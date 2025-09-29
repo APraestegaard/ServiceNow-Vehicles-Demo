@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_270490_vehicle_0/vehicles</base_uri>
+        <consumes>application/json</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_version>v1</default_version>
+        <doc_link>x_270490_vehicle_0_vehicles_api_documentation.do</doc_link>
+        <enforce_acl>b40d24088358be103bdfa230ceaad390</enforce_acl>
+        <is_versioned>true</is_versioned>
+        <name>Vehicles</name>
+        <namespace>x_270490_vehicle_0</namespace>
+        <produces>application/json</produces>
+        <produces_customized>true</produces_customized>
+        <service_id>vehicles</service_id>
+        <short_description>Vehicles REST API Documentation</short_description>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:20:26</sys_created_on>
+        <sys_id>bfb86bdf8388fa103bdfa230ceaad30e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vehicles</sys_name>
+        <sys_package display_value="Vehicles App" source="x_270490_vehicle_0">e097bec78380ba103bdfa230ceaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles App">e097bec78380ba103bdfa230ceaad337</sys_scope>
+        <sys_update_name>sys_ws_definition_bfb86bdf8388fa103bdfa230ceaad30e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 06:40:45</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

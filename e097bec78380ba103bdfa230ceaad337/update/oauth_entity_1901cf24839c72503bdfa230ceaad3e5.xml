@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>811a5ef1388b4405a8c3cc629bc9fe8d</client_id>
+        <client_secret>﷞﷟﷒3248d06c831072503bdfa230ceaad3af﷬﷔1﷬﷭acOpdyl6jzJcq7tSL_W2aw==QqTI3AG4LvMGd8SSTTj_uUdMeylC9LqqOYbtunqOC1a1z4N7xqNqD0_0VGLk3ZS8﷮﷯</client_secret>
+        <client_type>integration_as_a_service</client_type>
+        <client_uuid>d501cf24839c72503bdfa230ceaad3e5</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <inbound_grant_type>client_credential</inbound_grant_type>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>Vehicles Scripted REST API</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim/>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 06:37:06</sys_created_on>
+        <sys_id>1901cf24839c72503bdfa230ceaad3e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vehicles Scripted REST API</sys_name>
+        <sys_package display_value="Vehicles App" source="x_270490_vehicle_0">e097bec78380ba103bdfa230ceaad337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles App">e097bec78380ba103bdfa230ceaad337</sys_scope>
+        <sys_update_name>oauth_entity_1901cf24839c72503bdfa230ceaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 06:59:16</sys_updated_on>
+        <token_format/>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user display_value="Vehicle Integration">0075cb0f83c0ba103bdfa230ceaad349</user>
+    </oauth_entity>
+</record_update>
