@@ -1970,7 +1970,7 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Vehicles">88c9760f8380ba103bdfa230ceaad3eb</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"30ab3acf8380ba103bdfa230ceaad386","name":"plan","plan_signature":null}}</plan>
-        <snapshot>10ab3acf8380ba103bdfa230ceaad32c</snapshot>
+        <snapshot>7e76f1159318b2101009f21bdd03d6d5</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-22 14:22:42</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -3948,6 +3948,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>88c9760f8380ba103bdfa230ceaad3eb</sys_id>
         <latest_snapshot>ff9bf6cf8380ba103bdfa230ceaad398</latest_snapshot>
-        <compiler_build>glide-zurich-07-01-2025__patch0-07-15-2025_07-23-2025_1759.zip</compiler_build>
+        <compiler_build>glide-zurich-07-01-2025__patch1-08-20-2025_09-08-2025_1328.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
